@@ -4,6 +4,17 @@
 
 This repository contains a proof of concept (PoC) script for an AI bot that can perform simple actions in a video game based on object recognition. The script utilizes the YOLOv8 model for real-time object detection and recognition. It captures the game screen, detects objects, and performs actions such as moving the mouse and pressing keyboard keys based on the detected objects.
 
+## Example: Bot in Action
+
+Here is an example of the bot in action in Half-Life 2. The top image shows the in-game view, and the bottom image shows the YOLOv8 object detection view.
+
+![Half-Life 2 with Bot View](HL_2_with_bot_view.png)
+
+In the top image, you can see the player's view in the game with the crosshair centered. The bottom image is the output from the bot's object detection using YOLOv8. The bot detects objects in the game, in this case, identifying multiple "bench" objects with their respective confidence levels. 
+
+This demonstrates the bot's ability to recognize and label objects in real-time, providing visual feedback and enabling future actions based on these detections.
+
+
 ## Features
 
 - **Real-time Object Detection**: Uses the YOLOv8 model to detect objects in the game screen in real-time.
